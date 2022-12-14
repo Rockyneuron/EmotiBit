@@ -1,15 +1,7 @@
-"""Minimal example of how to send event triggers in PsychoPy with
-LabStreamingLayer.
-In this example, the words "hello" and "world" alternate on the screen, and
-an event marker is sent with the appearance of each word.
-TO RUN: open in PyschoPy Coder and press 'Run'. Or if you have the psychopy
-Python package in your environment, run `python hello_world.py` in command line.
-ID     EVENT
-------------
-1  --> hello
-2  --> world
-99 -->  test
-------------
+"""Send event triggers to LabStreamingLayer for posterior synchronization.
+EmotiBit cant send streams directly to LSL but is able to capture a single channel 
+stream from LSL.
+
 """
 from pylsl import StreamInfo, StreamOutlet
 import time
