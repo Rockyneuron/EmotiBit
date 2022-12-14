@@ -15,11 +15,11 @@ sys.path.append(Path(r"C:\Users\ArturoV\Desktop\projects\EmotiBit\emotiBitData\L
 
 #%%
 %matplotlib inline
-file1=r'C:\Users\ArturoV\Desktop\projects\EmotiBit\emotiBitData\LSL\2022-12-12_16-27-05-140907_TX_TL_LC.csv'
-file2=r'C:\Users\ArturoV\Desktop\projects\EmotiBit\emotiBitData\LSL\2022-12-12_16-27-05-140907_TX_LC_LM.csv'
-file3=r'C:\Users\ArturoV\Desktop\projects\EmotiBit\emotiBitData\LSL\2022-12-12_16-27-05-140907_AX.csv'
+file1=r'C:\Users\ArturoV\Desktop\projects\EmotiBit\emotiBitData\LSL\2022-12-12_16-27-05-140907_TX_TL_LC.csv' #500ms interval LSL
+file2=r'C:\Users\ArturoV\Desktop\projects\EmotiBit\emotiBitData\LSL\2022-12-12_16-27-05-140907_TX_LC_LM.csv'#500ms interval LSL
+file3=r'C:\Users\ArturoV\Desktop\projects\EmotiBit\emotiBitData\LSL\2022-12-12_16-27-05-140907_AX.csv'#500ms interval LSL
 file4=r'C:\Users\ArturoV\Desktop\projects\EmotiBit\emotiBitData\LSL\2022-12-14_08-55-09-834278\2022-12-14_08-55-09-834278_TX_LC_LM.csv' #10s interval LSL
-file5=r'C:\Users\ArturoV\Desktop\projects\EmotiBit\emotiBitData\LSL\2022-12-14_08-55-09-834278\2022-12-14_08-55-09-834278_BV.csv'
+file5=r'C:\Users\ArturoV\Desktop\projects\EmotiBit\emotiBitData\LSL\2022-12-14_08-55-09-834278\2022-12-14_08-55-09-834278_BV.csv'#10s interval LSL
 
 data1=pd.read_csv(file1,delimiter=",")
 data2=pd.read_csv(file2,delimiter=",")
