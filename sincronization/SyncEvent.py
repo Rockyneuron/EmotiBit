@@ -26,7 +26,7 @@ def main():
     
     while True:
             outlet.push_sample(markers['event'])        
-            time.sleep(0.5)
+            time.sleep(1.5)
 
 if __name__ == "__main__":
     main()
