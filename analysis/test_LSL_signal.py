@@ -7,7 +7,7 @@ import pyxdf
 import matplotlib.pyplot as plt
 import numpy as np
 
-data, header = pyxdf.load_xdf('sub-P001_sync_try.xdf')
+data, header = pyxdf.load_xdf('sub-P001_ses-S001_task-Default[_acq-]_run-001_eeg.xdf')
 #%%
 for stream in data:
     y = stream['time_series']
@@ -36,3 +36,10 @@ ax.text(np.mean(signal_latency),2,'Max latency {}'.format(max(signal_latency)),f
 ax.text(np.mean(signal_latency),1,'Mean latency {}'.format(np.mean(signal_latency)),fontsize=10)
 plt.show()
 
+
+#%%
+
+a=1
+
+
+# %%
